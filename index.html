@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/fy.css" rel="stylesheet">
 
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,20 +41,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">fy</a>
+                <a class="navbar-brand" href="#">
+					<img style="display: inline-block;" src="media/fy_40x40.png">
+					FollowYu
+				</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="divider-vertical">
-                        <a href="#about">About</a>
+                        <a href="#faq">FAQ</a>
                     </li>
-                    <li class="divider-vertical">
-                        <a href="#services">Services</a>
-                    </li>
-                    <li class="divider-vertical">
+					<li class="divider-vertical">
                         <a href="#contact">Contact</a>
                     </li>
+                    <!--<li class="divider-vertical">
+                        <a href="#services">Services</a>
+                    </li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -61,33 +66,526 @@
     </nav>
 
     <!-- Full Width Image Header -->
-    <header class="header-image">
+    <!-- <header class="header-image">
+		<div>
+		<div class="headline">
         <div class="headline">
-            <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+            <div>
+                <h1>FollowYu Messenger</h1>
+                <h2>Only for Messaging</h2>
             </div>
         </div>
-    </header>
-
+		<div>
+    </header>-->
+	
     <!-- Page Content -->
     <div class="container">
 
+		<!-- FollowYu Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="media/fy_500x500.png">
+            <h2 class="featurette-heading">FollowYu Messenger
+				<h3>
+                <span class="text-muted">A messenger app only for messaging</span>
+				</h3>
+            </h2>
+			
+			<h4>
+				</br>
+				<span class="text-muted"> It's Free.</span></br>
+				<span class="text-muted"> Fast.</span></br>
+				<span class="text-muted"> Lightweight.</span></br>
+				<span class="text-muted"> Secure messaging.</span></br>
+				<span class="text-muted"> Supports SIM free devices.</span></br>
+				<span class="text-muted"> Material design.</span></br>
+				<span class="text-muted"> And many more features.</span>
+            </h4>
+			
+				</br>
+				<a href="https://play.google.com/store/apps/details?id=com.followyu">
+					<img alt="Get it on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
+				</a>
+        </div>
+		
         <hr class="featurette-divider">
 
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <!-- FAQs Featurette -->
+        <div class="featurette" id="faq">
+            <h3 class="featurette-heading">FAQ
+                <span class="text-muted"></span>
+            </h3>
+			<h4>
+				</br>
+                <span class="text-muted">Start </span>
+            </h4>
+			<div class="panel-group" id="accordion">
+			
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion"
+                href="#faq-1">
+              Get it
+            </a>
+          </h4>
+        </div>
+        <div id="faq-1" class="panel-collapse collapse in">
+          <div class="panel-body">
+				<a href="https://play.google.com/store/apps/details?id=com.followyu">
+					<img alt="Get it on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
+				</a>
+            </div>
+        </div>
+      </div>
+	  
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#faq-2">
+              Supported smartphones
+            </a>
+          </h4>
+        </div>
+        <div id="faq-2" class="panel-collapse collapse">
+          <div class="panel-body">
+            <h5>
+				<span class="text-muted">
+					FollowYu Messenger is supported on smartphones running Android 4.0 and above.
+				</span>
+			</h5>
+      </div>
+        </div>
+      </div>
+	  
+	  
+	   <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-3">
+              Register
+            </a>
+          </h4>
+        </div>
+        <div id="faq-3" class="panel-collapse collapse">
+          <div class="panel-body">
+            <h5>
+				<span class="text-muted">
+					Start FollowYu app.
+				</span></br>
+				<span class="text-muted">
+					Select "Register New Account" option.
+				</span></br>
+				<span class="text-muted">
+					Select your country and type your mobile number.
+				</span></br>
+				<span class="text-muted">
+					Select a strong password. Password is required to support on SIM free devices.
+				</span></br>
+				<span class="text-muted">
+					Tap on Next button to register new account with FollowYu. Your mobile number will be validated with a missed call from FollowYu.
+				</span></br></br>
+				<span class="text-muted">
+					If you failed to register then check your internet connection, mobile number and try again.
+				</span></br></br>
+				<span class="text-muted">
+					Note: Make sure you will use the validated mobile number and password for future login if you logout or when you use app on other devies.
+				</span></br>
+			</h5>
+      </div>
+        </div>
+      </div>
+	  
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-4">
+              Login/SIM free devices
+            </a>
+          </h4>
+        </div>
+        <div id="faq-4" class="panel-collapse collapse">
+          <div class="panel-body">
+            <h5>
+				<span class="text-muted">
+					Start FollowYu app.
+				</span></br>
+				<span class="text-muted">
+					Select your country and type your verified mobile number.
+				</span></br>
+				<span class="text-muted">
+					Type your password.
+				</span></br>
+				<span class="text-muted">
+					Tap on Next button to continue login.
+				</span></br></br>
+				<span class="text-muted">
+					If you failed to login then check your internet connection, mobile number and try again.
+				</span></br></br>
+				<span class="text-muted">
+					Note: Make sure you used mobile number which is already validated on a SIM device. If not then register 
+					<a data-toggle="collapse" data-parent="#accordion" 
+						href="#faq-3">
+						Click Here
+					</a>
+				</span></br>
+			</h5>
+      </div>
+        </div>
+      </div>
+	  
+		<h4>
+			</br>
+			<span class="text-muted">Contacts</span>
+		</h4>
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-5">
+              Add/refresh contacts
+            </a>
+          </h4>
+        </div>
+        <div id="faq-5" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "New Conversation".
+				</span></br>
+				<span class="text-muted">
+					Tap on "Add Contact".
+				</span></br>
+				<span class="text-muted">
+					Click on "Ok" to continue. All your phone numbers will be verified with FollowYu server and added them(which are using FollowYu Messenger) into your contact list.
+				</span></br></br>
+				<span class="text-muted">
+					Note: Make sure you have your friends'(who are using FollowYu app) phone numbers in your phone book. Invite your friends and family to use FollowYu app to have more contacts.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-6">
+              Block a contact
+            </a>
+          </h4>
+        </div>
+        <div id="faq-6" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Go to contact details.
+				</span></br>
+				<span class="text-muted">
+					Select "Block Contact" from more options.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-7">
+              UnBlock a contact
+            </a>
+          </h4>
+        </div>
+        <div id="faq-7" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Go to contact details.
+				</span></br>
+				<span class="text-muted">
+					Select "Unblock Contact" from more options.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <h4>
+			</br>
+			<span class="text-muted">Conversations</span>
+		</h4>
+		
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-8">
+              New conversation
+            </a>
+          </h4>
+        </div>
+        <div id="faq-8" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "New Conversation"
+				</span></br>
+				<span class="text-muted">
+					Select a contact.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	   <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-9">
+              New secure conversation
+            </a>
+          </h4>
+        </div>
+        <div id="faq-9" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "New Conversation"
+				</span></br>
+				<span class="text-muted">
+					Select a contact.
+				</span></br>
+				<span class="text-muted">
+					Tap on "Secure Conversation" from conversation screen.
+				</span></br>
+				<span class="text-muted">
+					Select "OTR". You will be promted to verify contact's finger prints and carefully verify them. All the messages in this conversation will be secured with OTR encryption.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-10">
+              Switch from plain to secure conversation
+            </a>
+          </h4>
+        </div>
+        <div id="faq-10" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Go to ongoing conversation.
+				</span></br>
+				<span class="text-muted">
+					Tap on "Secure Conversation" from conversation screen.
+				</span></br>
+				<span class="text-muted">
+					Select "OTR". You will be promted to verify contact's finger prints and carefully verify them. All the messages in this conversation will be secured with OTR encryption.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-11">
+              Switch from secure to plain conversation
+            </a>
+          </h4>
+        </div>
+        <div id="faq-11" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Go to ongoing conversation.
+				</span></br>
+				<span class="text-muted">
+					Tap on "Secure Conversation" from conversation screen.
+				</span></br>
+				<span class="text-muted">
+					Select "Plain".
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	   <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-12">
+              Secure all conversations
+            </a>
+          </h4>
+        </div>
+        <div id="faq-12" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Go to advance settings from more options
+				</span></br>
+				<span class="text-muted">
+					Select "Force end-to-end encryption" option.
+				</span></br>
+				<span class="text-muted">
+					In each conversation, now onwards you will be promted to verify contact's finger prints and carefully verify them. All the messages in the conversations will be secured with OTR encryption.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <h4>
+			</br>
+			<span class="text-muted">Account</span>
+		</h4>
+		<div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-13">
+              Temporally disable account
+            </a>
+          </h4>
+        </div>
+        <div id="faq-13" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "Account" from more settings.
+				</span></br>
+				<span class="text-muted">
+					Long tap on account.
+				</span></br>
+				<span class="text-muted">
+					Click on "Temporally disable"
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-14">
+              Enable disabled account
+            </a>
+          </h4>
+        </div>
+        <div id="faq-14" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "Account" from more settings.
+				</span></br>
+				<span class="text-muted">
+					Long tap on account.
+				</span></br>
+				<span class="text-muted">
+					Click on "Enable account"
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-15">
+              Change Password
+            </a>
+          </h4>
+        </div>
+        <div id="faq-15" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "Account" from more settings.
+				</span></br>
+				<span class="text-muted">
+					Tap on account.
+				</span></br>
+				<span class="text-muted">
+					Selelct "Change password" from more options.
+				</span></br>
+				<span class="text-muted">
+					Type current and new passwords. Click on Change Password to change password.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-16">
+              Logout
+            </a>
+          </h4>
+        </div>
+        <div id="faq-16" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					Tap on "Account" from more settings.
+				</span></br>
+				<span class="text-muted">
+					Long tap on account.
+				</span></br>
+				<span class="text-muted">
+					Click on "Logout" and Ok.
+				</span></br>
+		</div>
+        </div>
+      </div>
+	  
+	  
+		<h4>
+			</br>
+			<span class="text-muted">More</span>
+		</h4>
+	  <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#faq-17">
+              I didn't find answer
+            </a>
+          </h4>
+        </div>
+        <div id="faq-17" class="panel-collapse collapse">
+          <div class="panel-body">
+				<span class="text-muted">
+					If you didn't find an answer for your questions. Please mail us.
+				</span></br>
+				<address>
+				<span class="text-muted glyphicon glyphicon-envelope"></span>
+				<a href="mailto:#"> help.followyu@gmail.com</a>
+			</address>
+		</div>
+        </div>
+      </div>
+	  
+	  
+    </div>
         </div>
 
         <hr class="featurette-divider">
 
+		<!-- Contact Featurette -->
+        <div class="featurette" id="contact">
+            <h2 class="featurette-heading">Contact
+                <span class="text-muted"></span>
+            </h2>
+			<address>
+				<strong></strong><br>
+				<span class="text-muted glyphicon glyphicon-envelope"></span>
+				<a href="mailto:#"> help.followyu@gmail.com</a>
+			</address>
+        </div>
+
+        <hr class="featurette-divider">
+		
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
+        <!--<div class="featurette" id="services">
             <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
             <h2 class="featurette-heading">The Second Heading
                 <span class="text-muted">Is Pretty Cool Too.</span>
@@ -95,10 +593,10 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider">-->
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
+        <!--<div class="featurette" id="contact">
             <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
             <h2 class="featurette-heading">The Third Heading
                 <span class="text-muted">Will Seal the Deal.</span>
@@ -106,13 +604,13 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider">-->
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; FollowYu 2015</p>
                 </div>
             </div>
         </footer>
